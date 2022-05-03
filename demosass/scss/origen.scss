@@ -1,0 +1,31 @@
+/*esto es un comentario*/
+
+
+
+
+
+/*variable*/
+
+$anchura: 100%;
+
+.body{
+    width: $anchura;
+}
+
+/*extend*/
+
+#titulo-nuevo{
+    @extend #titulo;
+        background-color: gray;
+    
+}
+
+
+
+/*mixind*/
+
+@mixin tamanio ($anchura, $altura){
+    width: $anchura;
+    height: $altura;
+}
+    
